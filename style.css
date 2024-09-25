@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 30%;
+  background-color: bisque;
+  padding: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+main h1 {
+  text-align: center;
+}
+
+form button {
+  border: none;
+  padding: 0.5rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: rgb(249, 73, 73);
+  cursor: pointer;
+
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  padding: .2rem;
+  margin: .2rem;
+}
+
+form span {
+  color: #f64348;
+  font-size: .75rem;
+  margin: .25rem;
+}
+
+.error {
+  border: 1px solid #f64348;
+}
